@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tab Expiry</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <h1>Tab Expiry</h1>
+  <p>Choose when to close this tab.</p>
+
+  <select id="duration">
+    <option value="1">1 minute</option>
+    <option value="5">5 minutes</option>
+    <option value="15">15 minutes</option>
+    <option value="30" selected>30 minutes</option>
+    <option value="60">1 hour</option>
+    <option value="custom">Custom</option>
+  </select>
+  <div id="custom-duration-fields" hidden>
+    <p>Custom timer</p>
+
+    <div class="custom-time-fields">
+      <input id="custom-minutes" type="number" min="0" placeholder="Minutes">
+      <input id="custom-seconds" type="number" min="0" max="59" placeholder="Seconds">
+    </div>
+  </div>
+  <button id="start-button">Start timer</button>
+  <button id="cancel-button">Cancel timer</button>
+  <p id="status"></p>
+  <p id="countdown"></p>
+  <section class="dashboard">
+    <h2>Scheduled tabs</h2>
+    <div id="timer-list"></div>
+  </section>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>

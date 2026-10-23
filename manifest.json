@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Expiry",
+  "version": "1.0",
+  "description": "Close tabs automatically after a chosen time.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": ["tabs", "alarms","storage"],
+  "action": {
+  "default_title": "Tab Expiry",
+  "default_popup": "popup.html",
+  "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

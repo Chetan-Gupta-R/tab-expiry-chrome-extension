@@ -1,0 +1,116 @@
+body {
+  width: 260px;
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #111827;
+  color: #f9fafb;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+p {
+  color: #cbd5e1;
+  line-height: 1.4;
+}
+
+select,
+button {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+select {
+  border: 1px solid #475569;
+  background: #1e293b;
+  color: white;
+}
+
+button {
+  border: 0;
+  background: #8b5cf6;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #7c3aed;
+}
+
+#cancel-button {
+  background: #334155;
+}
+
+#cancel-button:hover {
+  background: #475569;
+}
+
+#status {
+  min-height: 20px;
+  color: #86efac;
+  font-size: 13px;
+}
+
+.dashboard {
+  margin-top: 22px;
+  border-top: 1px solid #334155;
+  padding-top: 16px;
+}
+
+.dashboard h2 {
+  margin: 0 0 10px;
+  font-size: 15px;
+}
+
+.timer-row {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #1e293b;
+}
+
+.timer-title {
+  margin: 0;
+  color: #f8fafc;
+  font-size: 13px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.timer-remaining {
+  margin: 5px 0 8px;
+  color: #86efac;
+  font-size: 12px;
+}
+
+.small-cancel {
+  margin: 0;
+  padding: 6px 8px;
+  background: #475569;
+  font-size: 12px;
+}
+
+.custom-time-fields {
+  display: flex;
+  gap: 8px;
+}
+
+.custom-time-fields input {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  background: #1e293b;
+  color: white;
+}
