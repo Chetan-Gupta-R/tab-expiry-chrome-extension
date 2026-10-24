@@ -60,3 +60,6 @@ Chrome alarms may not fire at the exact second requested, especially for very sh
 ## License
 
 This project is available for learning and personal use.
+
+
+For any Suggetions on Development please mail me at chetan.gupta.aiml@gmail.com
